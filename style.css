@@ -1,0 +1,83 @@
+.success{
+    background-color: rgb(129, 255, 157);
+    color: rgb(22, 78, 25);
+}
+.error{
+    background-color: rgb(255, 134, 134);
+    color: rgb(78, 22, 22);
+}
+.notice{
+    background-color: rgb(134, 211, 255);
+    color: rgb(23, 22, 78);
+}
+#menu_bar{
+    font-size: 3em;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: .4em;
+}
+#menu_bar a{
+    color: white;
+    text-decoration: none;
+    margin-right: 2em;
+}
+#console{
+    border: 2px solid gray;
+    width: 400px;
+    
+
+}
+#console a{
+    font-size: 2em;
+    text-decoration: none;
+    color: rgb(52, 55, 216);
+    transform: scale(1);
+    
+}
+#console:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 5px 5px grey;
+}
+#console img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    
+}
+#catalogue{
+    margin-top: 20px;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    padding: 1em;
+}
+#present{
+    font-size: 1.5em;
+    padding: 5em;
+    text-align: center;
+}
+#present img{
+    width: 500px;
+    margin-top: 2em;
+}
+.prix{
+    font-size: 2.5em;
+}
+.cart-link{
+    position: relative;
+}
+.badge{
+    position: absolute;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 0.5em;
+    top: 20px;
+    right: -.8em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 1.5em;
+    height: 1.5em;
+}
