@@ -15,37 +15,38 @@
     </head>
     <body>
         <?php include "menu.php"; ?>
-
-        <h1>Ajouter un produit</h1>
-        <form action="traitement.php?action=addDB" method="post">
-            <p>
+        <div class="blockform">
+            <h1>Ajouter un produit</h1>
+            <form action="traitement.php?action=addDB" method="post">
+                <p>
+                    <label>
+                        Nom du produit :
+                        <input type="text" name="name" cols="30">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Description :
+                        <textarea name="description" id="descr" cols="22" rows="5"></textarea>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Prix du produit :
+                        <input type="number" step="any" name="price" cols="30">
+                    </label>
+                </p>
+                <p>
                 <label>
-                    Nom du produit :
-                    <input type="text" name="name">
-                </label>
-            </p>
-            <p>
-                <label>
-                    Description :
-                    <textarea name="description" id="descr" cols="30" rows="10"></textarea>
-                </label>
-            </p>
-            <p>
-                <label>
-                    Prix du produit :
-                    <input type="number" step="any" name="price">
-                </label>
-            </p>
-            <p>
-            <label>
-                    Image du produit :
-                    <input type="text" name="image">
-                </label>
-            </p>
-            
-            <p>
-                <input type="submit" name="submit" value="Ajouter le produit">
-            </p>
-        </form>
+                        Image du produit :
+                        <input type="text" name="image" cols="30">
+                    </label>
+                </p>
+                
+                <p>
+                    <input class="addCart" type="submit" name="submit" value="Ajouter le produit">
+                </p>
+            </form>
+        </div>
     </body>
 </html>

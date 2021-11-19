@@ -19,11 +19,11 @@
     </head>
     <body>
     <?php include "menu.php"; ?>
-
-        <a href="index.php">Retour</a>
-  
-        <article id="present">
         
+        <article id="present">
+            <div class="menu-retour">
+                <a id="return" href="index.php"><i class="fas fa-undo-alt"></i>Retour</a>
+            </div>
             <h2><?= $product['name'] ?></h2>
             <p>
    
@@ -35,7 +35,7 @@
             <p class="prix">
                 <?= $product['price']."€" ?>
             </p>
-            <a href="traitement.php?action=addProd&id=<?= $product['id'] ?>">Ajouter au panier</a>
+            <a class="addCart" href="traitement.php?action=addProd&id=<?= $product['id'] ?>">Ajouter au panier</a>
             
        
         </article>

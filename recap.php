@@ -66,8 +66,8 @@
                     </tr>
                 </tbody>
             </table>
-            <p>
-                <a href='traitement.php?action=deleteAll'>Vider le panier</a>
+            <p id="clearCart">
+                <a class="addCart" href='traitement.php?action=deleteAll'>Vider le panier</a>
             </p>
             <?php
             }

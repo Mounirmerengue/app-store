@@ -1,14 +1,19 @@
 .success{
     background-color: rgb(129, 255, 157);
     color: rgb(22, 78, 25);
+    font-size: 2.5em;
 }
 .error{
     background-color: rgb(255, 134, 134);
     color: rgb(78, 22, 22);
+    font-size: 2.5em;
+
 }
 .notice{
     background-color: rgb(134, 211, 255);
     color: rgb(23, 22, 78);
+    font-size: 2.5em;
+
 }
 #menu_bar{
     font-size: 3em;
@@ -81,3 +86,79 @@
     width: 1.5em;
     height: 1.5em;
 }
+.addCart, .menu-retour #return{
+    background-color: black;
+    font-size: 1.7em;
+    color: white;
+    padding: 20px;
+    border-radius: 15%;
+    text-decoration: none;
+    
+}
+.addCart::hover{
+    transform: scale(1.2);
+}
+#present h2{
+    margin-top: 3em;
+}
+.menu-retour #return{
+    font-size: 1.2em;
+}
+form{
+    font-size: 2em;
+    text-align: center;
+}
+.submitbut{
+    border: 2px black solid;
+    border-radius: 20%;    
+    margin-left: 400px;
+    padding: 1em;
+}
+table{
+    margin: auto;
+    font-size: 2em;
+}
+thead{
+    
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    padding: 1em;
+    margin: auto;
+    background-color: rgb(117, 181, 233);
+}
+th,td{
+    background-color: rgb(224, 224, 224);
+    padding: 1em;
+    text-align: center;
+    
+}
+td{
+    text-align: center;
+}
+.blockform{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.blockform h2{
+    text-align: center;
+}
+
+form input{
+    width: 500px;
+    font-size: 2em;
+    background-color: rgb(182, 182, 182);
+    border: none;
+}
+form textarea{
+    width: 500px;
+    background-color: rgb(182, 182, 182);
+    border: none;
+    
+}
+#clearCart{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 4em;
+}
+
